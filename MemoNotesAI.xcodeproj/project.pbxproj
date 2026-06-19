@@ -6,13 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		043BB6912FE03CB200449743 /* PersistenceCore in Frameworks */ = {isa = PBXBuildFile; productRef = 043BB6A12FE03CB200449743 /* PersistenceCore */; };
+		043BB6922FE03CB200449743 /* AudioCore in Frameworks */ = {isa = PBXBuildFile; productRef = 043BB6A22FE03CB200449743 /* AudioCore */; };
+		043BB6932FE03CB200449743 /* TranscriptionCore in Frameworks */ = {isa = PBXBuildFile; productRef = 043BB6A32FE03CB200449743 /* TranscriptionCore */; };
+		043BB6942FE03CB200449743 /* NetworkCore in Frameworks */ = {isa = PBXBuildFile; productRef = 043BB6A42FE03CB200449743 /* NetworkCore */; };
+		043BB6952FE03CB200449743 /* SystemCore in Frameworks */ = {isa = PBXBuildFile; productRef = 043BB6A52FE03CB200449743 /* SystemCore */; };
+		043BB6962FE03CB200449743 /* RecordingFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 043BB6A62FE03CB200449743 /* RecordingFeature */; };
+		043BB6972FE03CB200449743 /* SessionsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 043BB6A72FE03CB200449743 /* SessionsFeature */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		043BB6802FE03CB200449743 /* MemoNotesAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoNotesAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		043BB6902FE03CB200449743 /* Exceptions for "MemoNotesAI" folder in "MemoNotesAI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AudioCore,
+				NetworkCore,
+				PersistenceCore,
+				RecordingFeature,
+				SessionsFeature,
+				SystemCore,
+				TranscriptionCore,
+			);
+			target = 043BB67F2FE03CB200449743 /* MemoNotesAI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		043BB6822FE03CB200449743 /* MemoNotesAI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				043BB6902FE03CB200449743 /* Exceptions for "MemoNotesAI" folder in "MemoNotesAI" target */,
+			);
 			path = MemoNotesAI;
 			sourceTree = "<group>";
 		};
@@ -23,6 +52,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043BB6912FE03CB200449743 /* PersistenceCore in Frameworks */,
+				043BB6922FE03CB200449743 /* AudioCore in Frameworks */,
+				043BB6932FE03CB200449743 /* TranscriptionCore in Frameworks */,
+				043BB6942FE03CB200449743 /* NetworkCore in Frameworks */,
+				043BB6952FE03CB200449743 /* SystemCore in Frameworks */,
+				043BB6962FE03CB200449743 /* RecordingFeature in Frameworks */,
+				043BB6972FE03CB200449743 /* SessionsFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +101,13 @@
 			);
 			name = MemoNotesAI;
 			packageProductDependencies = (
+				043BB6A12FE03CB200449743 /* PersistenceCore */,
+				043BB6A22FE03CB200449743 /* AudioCore */,
+				043BB6A32FE03CB200449743 /* TranscriptionCore */,
+				043BB6A42FE03CB200449743 /* NetworkCore */,
+				043BB6A52FE03CB200449743 /* SystemCore */,
+				043BB6A62FE03CB200449743 /* RecordingFeature */,
+				043BB6A72FE03CB200449743 /* SessionsFeature */,
 			);
 			productName = MemoNotesAI;
 			productReference = 043BB6802FE03CB200449743 /* MemoNotesAI.app */;
@@ -94,6 +137,15 @@
 			);
 			mainGroup = 043BB6772FE03CB100449743;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				043BB6B12FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/PersistenceCore" */,
+				043BB6B22FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/AudioCore" */,
+				043BB6B32FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/TranscriptionCore" */,
+				043BB6B42FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/NetworkCore" */,
+				043BB6B52FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/SystemCore" */,
+				043BB6B62FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/RecordingFeature" */,
+				043BB6B72FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/SessionsFeature" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 043BB6812FE03CB200449743 /* Products */;
 			projectDirPath = "";
@@ -253,6 +305,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,6 +382,75 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		043BB6B12FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/PersistenceCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MemoNotesAI/PersistenceCore;
+		};
+		043BB6B22FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/AudioCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MemoNotesAI/AudioCore;
+		};
+		043BB6B32FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/TranscriptionCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MemoNotesAI/TranscriptionCore;
+		};
+		043BB6B42FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/NetworkCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MemoNotesAI/NetworkCore;
+		};
+		043BB6B52FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/SystemCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MemoNotesAI/SystemCore;
+		};
+		043BB6B62FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/RecordingFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MemoNotesAI/RecordingFeature;
+		};
+		043BB6B72FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/SessionsFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MemoNotesAI/SessionsFeature;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		043BB6A12FE03CB200449743 /* PersistenceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043BB6B12FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/PersistenceCore" */;
+			productName = PersistenceCore;
+		};
+		043BB6A22FE03CB200449743 /* AudioCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043BB6B22FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/AudioCore" */;
+			productName = AudioCore;
+		};
+		043BB6A32FE03CB200449743 /* TranscriptionCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043BB6B32FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/TranscriptionCore" */;
+			productName = TranscriptionCore;
+		};
+		043BB6A42FE03CB200449743 /* NetworkCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043BB6B42FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/NetworkCore" */;
+			productName = NetworkCore;
+		};
+		043BB6A52FE03CB200449743 /* SystemCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043BB6B52FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/SystemCore" */;
+			productName = SystemCore;
+		};
+		043BB6A62FE03CB200449743 /* RecordingFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043BB6B62FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/RecordingFeature" */;
+			productName = RecordingFeature;
+		};
+		043BB6A72FE03CB200449743 /* SessionsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043BB6B72FE03CB200449743 /* XCLocalSwiftPackageReference "MemoNotesAI/SessionsFeature" */;
+			productName = SessionsFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 043BB6782FE03CB100449743 /* Project object */;
 }
