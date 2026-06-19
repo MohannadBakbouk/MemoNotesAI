@@ -107,7 +107,7 @@ public struct SegmentTranscriptRow: View {
     }
 
     private func formatTime(_ t: TimeInterval) -> String {
-        let total   = Int(t)
+        let total   = Int(t.rounded())
         let hours   = total / 3600
         let minutes = (total % 3600) / 60
         let seconds = total % 60

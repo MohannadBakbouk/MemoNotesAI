@@ -56,7 +56,7 @@ public struct SessionRowView: View {
     }
 
     private func formatDuration(_ interval: TimeInterval) -> String {
-        let minutes = Int(interval) / 60
+        let minutes = Int(interval.rounded()) / 60
         return minutes < 60
             ? "\(minutes) min"
             : "\(minutes / 60) hr \(minutes % 60) min"

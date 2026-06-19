@@ -73,7 +73,7 @@ public struct SessionDetailView: View {
     }
 
     private func formatDuration(_ interval: TimeInterval) -> String {
-        let total   = Int(interval)
+        let total   = Int(interval.rounded())
         let hours   = total / 3600
         let minutes = (total % 3600) / 60
         let seconds = total % 60
