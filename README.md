@@ -6,20 +6,33 @@ MemoNotesAI captures long-form audio, slices it into rolling **30-second segment
 
 ---
 
+## 📺 App Demo Video
+
+<div align="center">
+
+| 📱 MemoNotesAI in Action |
+| :---: |
+| <video src="https://github.com/user-attachments/assets/e024271b-d2b1-496c-a757-f61fd3e1f082" controls width="80%"> </video> |
+
+</div>
+
+---
+
 ## 📑 Table of Contents
 
-1. [🎯 Purpose & Capabilities](#-purpose--capabilities)
-2. [✨ Key Features](#-key-features)
-3. [🏛️ Architecture Overview](#️-architecture-overview)
-4. [🧭 Architectural Decisions](#-architectural-decisions)
-5. [🗂️ Project Structure](#️-project-structure)
-6. [🧩 Design Patterns](#-design-patterns)
-7. [🔄 Data Flow & State Management](#-data-flow--state-management)
-8. [⚙️ Concurrency Model](#️-concurrency-model)
-9. [🛟 Error Handling Strategy](#-error-handling-strategy)
-10. [🧪 Edge Cases & Production Considerations](#-edge-cases--production-considerations)
-11. [📈 Scalability, Maintainability, Testability](#-scalability-maintainability-testability)
-12. [💎 Noteworthy Technical Implementations](#-noteworthy-technical-implementations)
+1. [📺 App Demo Video](#-app-demo-video)
+2. [🎯 Purpose & Capabilities](#-purpose--capabilities)
+3. [✨ Key Features](#-key-features)
+4. [🏛️ Architecture Overview](#️-architecture-overview)
+5. [🧭 Architectural Decisions](#-architectural-decisions)
+6. [🗂️ Project Structure](#️-project-structure)
+7. [🧩 Design Patterns](#-design-patterns)
+8. [🔄 Data Flow & State Management](#-data-flow--state-management)
+9. [⚙️ Concurrency Model](#️-concurrency-model)
+10. [🛟 Error Handling Strategy](#-error-handling-strategy)
+11. [🧪 Edge Cases & Production Considerations](#-edge-cases--production-considerations)
+12. [📈 Scalability, Maintainability, Testability](#-scalability-maintainability-testability)
+13. [💎 Noteworthy Technical Implementations](#-noteworthy-technical-implementations)
 
 ---
 
